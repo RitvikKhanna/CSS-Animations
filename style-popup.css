@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  font-weight: normal;
+  color: black;
+  margin: 0;
+}
+
+h1{
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+p{
+  margin-bottom: 40px;
+}
+
+body{
+  margin: 0;
+  position: relative;
+}
+
+body.pop-up{
+  background: lightgrey;
+}
+
+#pop-up{
+  position: relative;
+  top: 200px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#pop-up .container{
+  background: #a8002d;
+  padding: 30px;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+
+#pop-up input{
+  padding: 10px;
+  border: 0;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid black;
+  font-size: 18px;
+}
+
+button{
+  padding: 10px;
+  border: 0;
+  color: white;
+  background: black;
+  margin-left: -5px;
+  border-radius: 0 10px 10px 0;
+  font-size: 18px;
+}
+
+.cross{
+  position: absolute;
+  top:10px;
+  left:10px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+/* POP UP ANIMATION  */
+#pop-up{
+  top: -400px;
+  transform-origin: 10px 10px;
+  animation: drop 2s ease forwards,
+             swing 2s 5s ease forwards;
+}
+
+@keyframes drop {
+  0%{
+    opacity: 0;
+  }
+  70%{
+    transform: translateY(700px);
+  }
+  100%{
+    transform: translateY(600px);
+    opacity: 1;
+  }
+}
+
+@keyframes swing {
+  0%{
+    transform: translateY(650px) rotateZ(0deg);
+  }
+  40%{
+    transform: translateY(650px) rotateZ(90deg);
+  }
+  70%{
+    transform: translateY(650px) rotateZ(70deg);
+  }
+  100%{
+    transform: translateY(650px) rotateZ(75deg);
+  }
+
+}
+
+
+header{
+  padding: 10px 20px;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+header:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.basket ul{
+  padding: 0;
+  margin-top: 40px;
+}
