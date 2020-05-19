@@ -10,7 +10,9 @@ Some basic css animations
 
 ###### Transition
 
-![Screeenshot Missing](https://github.com/RitvikKhanna/CSS-Animations/blob/master/transition.gif)
+* ![Screeenshot Missing](https://github.com/RitvikKhanna/CSS-Animations/blob/master/transition.gif)
+* ![Broken Gif](https://github.com/RitvikKhanna/CSS-Animations/blob/master/keyframes.gif)
+* ![Broken Gif](https://github.com/RitvikKhanna/CSS-Animations/blob/master/popup.gif)
 
 ###### Basic Landing Page
 
