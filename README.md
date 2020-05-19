@@ -6,12 +6,12 @@ Some basic css animations
 
 ######Transform
 
-![Screenshot Missing]
+![Screenshot Missing](https://github.com/RitvikKhanna/CSS-Animations/blob/master/gif-basic.gif)
 
 +Transition
 
-![Screeenshot Missing]
+![Screeenshot Missing](https://github.com/RitvikKhanna/CSS-Animations/blob/master/transition.gif)
 
 +Basic Landing Page
 
-![Screenshot Missing]
+![Screenshot Missing](https://github.com/RitvikKhanna/CSS-Animations/blob/master/landing.gif)
